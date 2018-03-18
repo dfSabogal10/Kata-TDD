@@ -13,9 +13,10 @@ class Estadisticas:
             return [0,None]
         elif "," in cadena:
             numeros=cadena.split(",")
-            if numeros[0]<numeros[1]:
-                return [2,int(numeros[0])]
-            else:
-                return [2,int(numeros[1])]
+            minimo = numeros[0]
+            for num in numeros:
+                if num < minimo:
+                    minimo = num
+            return [len(numeros), int(minimo)]
         else:
             return [1,int(cadena)]
