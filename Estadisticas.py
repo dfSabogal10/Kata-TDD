@@ -20,6 +20,6 @@ class Estadisticas:
             return [len(numeros), int(minimo)]
         else:
             return [1,int(cadena)]
-        
+
     def estadisticas_it3(self,cadena):
-        pass
+        return [0,None,None]
