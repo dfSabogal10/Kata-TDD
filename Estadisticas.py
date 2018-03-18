@@ -40,5 +40,12 @@ class Estadisticas:
     def estadisticas_it4(self,cadena):
         if cadena=="":
             return [0, None, None,None]
+        elif "," in cadena:
+            numeros=cadena.split(",")
+            promedio=(float(numeros[0])+float(numeros[1]))/2
+            if int(numeros[0]) <int(numeros[1]):
+                return [2,int(numeros[0]),int(numeros[1]),promedio]
+            else:
+                return [2, int(numeros[1]), int(numeros[0]), promedio]
         else:
             return [1, 1, 1, 1]
