@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Estadisticas.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Estadisticas.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Estadisticas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_estadisticas.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_estadisticas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_estadisticas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-420">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Estadisticas.py" />
         <option value="$PROJECT_DIR$/test_estadisticas.py" />
+        <option value="$PROJECT_DIR$/Estadisticas.py" />
       </list>
     </option>
   </component>
@@ -276,12 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 24m 22s.xml">
-      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 25m 48s.xml">
-      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 27m 28s.xml">
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
@@ -304,6 +298,12 @@
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 36m 26s.xml">
+      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 38m 58s.xml">
+      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 39m 18s.xml">
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
   </component>
@@ -338,21 +338,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Estadisticas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_estadisticas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-420">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estadisticas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -41,11 +41,17 @@ class Estadisticas:
         if cadena=="":
             return [0, None, None,None]
         elif "," in cadena:
-            numeros=cadena.split(",")
-            promedio=(float(numeros[0])+float(numeros[1]))/2
-            if int(numeros[0]) <int(numeros[1]):
-                return [2,int(numeros[0]),int(numeros[1]),promedio]
-            else:
-                return [2, int(numeros[1]), int(numeros[0]), promedio]
+            numeros = cadena.split(",")
+            minimo = numeros[0]
+            maximo = numeros[0]
+            promedio=0
+            for num in numeros:
+                promedio +=float(num)
+                if num < minimo:
+                    minimo = num
+                if num > maximo:
+                    maximo = num
+            promedio=promedio/len(numeros)
+            return [len(numeros), int(minimo), int(maximo),promedio]
         else:
             return [1, 1, 1, 1]
