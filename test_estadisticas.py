@@ -34,5 +34,5 @@ class TestEstadisticas(TestCase):
         self.assertEqual(Estadisticas().estadisticas_it3("1"), [1, 1, 1], "iteracion 3: un numero")
 
     def test_estadisticas_it3_dosnumeros(self):
-        self.assertEqual(Estadisticas().estadisticas_it3("1,2"), [1, 1, 2], "iteracion 3: dos numeros")
+        self.assertEqual(Estadisticas().estadisticas_it3("1,2"), [2, 1, 2], "iteracion 3: dos numeros")
 

@@ -24,5 +24,11 @@ class Estadisticas:
     def estadisticas_it3(self,cadena):
         if cadena=="":
             return [0,None,None]
+        elif "," in cadena:
+            numeros=cadena.split(",")
+            if int(numeros[0]) < int(numeros[1]):
+                return [2,int(numeros[0]),int(numeros[1])]
+            else:
+                return [2,int(numeros[1]),int(numeros[0])]
         else:
             return [1,1,1]
