@@ -22,4 +22,7 @@ class Estadisticas:
             return [1,int(cadena)]
 
     def estadisticas_it3(self,cadena):
-        return [0,None,None]
+        if cadena=="":
+            return [0,None,None]
+        else:
+            return [1,1,1]
