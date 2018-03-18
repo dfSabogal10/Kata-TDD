@@ -19,14 +19,17 @@ class TestEstadisticas(TestCase):
         self.assertEqual(Estadisticas().estadisticas_it2(""), [0,None], "iteracion 2: cadena vacia")
 
     def test_estadisticas_it2_unnumero(self):
-        self.assertEqual(Estadisticas().estadisticas_it2("1"), [1,1], "iteracion 2: unnumero")
+        self.assertEqual(Estadisticas().estadisticas_it2("1"), [1,1], "iteracion 2: un numero")
 
     def test_estadisticas_it2_dosnumeros(self):
-        self.assertEqual(Estadisticas().estadisticas_it2("1,2"), [2,1], "iteracion 2: dosnumeros")
+        self.assertEqual(Estadisticas().estadisticas_it2("1,2"), [2,1], "iteracion 2: dos numeros")
 
     def test_estadisticas_it2_dosnumeros(self):
         self.assertEqual(Estadisticas().estadisticas_it2("1,2,3,4"), [4,1], "iteracion 2: multiples numeros")
 
     def test_estadisticas_it3_cadenavacia(self):
         self.assertEqual(Estadisticas().estadisticas_it3(""), [0,None,None], "iteracion 3: cadena vacia")
+
+    def test_estadisticas_it3_unnumero(self):
+        self.assertEqual(Estadisticas().estadisticas_it3("1"), [1, 1, 1], "iteracion 3: un numero")
 
