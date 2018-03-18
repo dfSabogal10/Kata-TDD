@@ -1,4 +1,5 @@
 class Estadisticas:
+
     def estadisticas(self, cadena):
         if cadena=="":
             return [0]
@@ -7,3 +8,6 @@ class Estadisticas:
             return [len(numeros)]
         else:
             return [1]
+
+    def estadisticas_it2(self,cadena):
+        pass
