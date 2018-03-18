@@ -38,4 +38,4 @@ class Estadisticas:
             return [1,1,1]
 
     def estadisticas_it4(self,cadena):
-        pass
+        return [0, None, None,None]

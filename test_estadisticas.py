@@ -40,5 +40,5 @@ class TestEstadisticas(TestCase):
         self.assertEqual(Estadisticas().estadisticas_it3("1,2,3,4"), [4, 1, 4], "iteracion 3: multiples numeros")
 
     def test_estadisticas_it4_cadenavacia(self):
-        self.assertEqual(Estadisticas().estadisticas_it4("1,2,3,4"), [4, 1, 4], "iteracion 4: cadena vacia")
+        self.assertEqual(Estadisticas().estadisticas_it4(""), [0, None, None,None], "iteracion 4: cadena vacia")
 
