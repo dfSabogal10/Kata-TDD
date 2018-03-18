@@ -1,3 +1,3 @@
 class Estadisticas:
-    def estadisticas(cadena):
-        pass
+    def estadisticas(self, cadena):
+        return [0]
