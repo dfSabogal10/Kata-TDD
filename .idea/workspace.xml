@@ -18,8 +18,8 @@
       <file leaf-file-name="Estadisticas.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Estadisticas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/test_estadisticas.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -276,9 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 02m 20s.xml">
-      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 02m 34s.xml">
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
@@ -304,6 +301,9 @@
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 17m 42s.xml">
+      <configuration name="Unittests in test_estadisticas" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_estadisticas - 2018.03.18 at 17h 19m 13s.xml">
       <configuration name="Unittests in test_estadisticas" configurationId="tests" />
     </history-entry>
   </component>
@@ -341,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/test_estadisticas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -350,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Estadisticas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>

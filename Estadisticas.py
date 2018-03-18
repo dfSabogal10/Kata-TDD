@@ -25,10 +25,14 @@ class Estadisticas:
         if cadena=="":
             return [0,None,None]
         elif "," in cadena:
-            numeros=cadena.split(",")
-            if int(numeros[0]) < int(numeros[1]):
-                return [2,int(numeros[0]),int(numeros[1])]
-            else:
-                return [2,int(numeros[1]),int(numeros[0])]
+            numeros = cadena.split(",")
+            minimo = numeros[0]
+            maximo = numeros[0]
+            for num in numeros:
+                if num < minimo:
+                    minimo = num
+                if num > maximo:
+                    maximo = num
+            return [len(numeros), int(minimo), int(maximo)]
         else:
             return [1,1,1]
