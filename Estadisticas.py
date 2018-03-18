@@ -36,3 +36,6 @@ class Estadisticas:
             return [len(numeros), int(minimo), int(maximo)]
         else:
             return [1,1,1]
+
+    def estadisticas_it4(self,cadena):
+        pass
