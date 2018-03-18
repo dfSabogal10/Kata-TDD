@@ -38,4 +38,7 @@ class Estadisticas:
             return [1,1,1]
 
     def estadisticas_it4(self,cadena):
-        return [0, None, None,None]
+        if cadena=="":
+            return [0, None, None,None]
+        else:
+            return [1, 1, 1, 1]
