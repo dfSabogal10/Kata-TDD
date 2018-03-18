@@ -17,3 +17,6 @@ class TestEstadisticas(TestCase):
 
     def test_estadisticas_it2_cadenavacia(self):
         self.assertEqual(Estadisticas().estadisticas_it2(""), [0,None], "iteracion 2: cadena vacia")
+
+    def test_estadisticas_it2_unnumero(self):
+        self.assertEqual(Estadisticas().estadisticas_it2("1"), [0,1], "iteracion 2: unnumero")
